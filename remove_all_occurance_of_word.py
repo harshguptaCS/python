@@ -1,0 +1,5 @@
+s=input("Enter a string : ")
+c=input("Enter word for replce : ")
+n=input("Enter new word : ")
+s=s.replace(c,n)
+print("New string :",s)
