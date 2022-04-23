@@ -6,4 +6,4 @@ y=0
 for i in range(2,len(x)):
     if x[i]=='1':
         y+=1
-print("Hamming distance :",y)
+print("Hamming distance =",y)
