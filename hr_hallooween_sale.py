@@ -1,0 +1,12 @@
+l=list(map(int,input().split()))
+s=x=0
+while(1):
+    if(s+l[0]<=l[3]):
+        x+=1
+        s+=l[0]
+    else:
+        break
+    l[0]-=l[1]
+    if(l[0]<l[2]):
+        l[0]=l[2]
+print(x)                    
