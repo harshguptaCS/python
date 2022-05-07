@@ -9,6 +9,6 @@ for i in range(n-1):
             fl=1
             break
 if(fl==1):
-    print(min(d))        
+    print(min(d))
 else:
     print("-1")
