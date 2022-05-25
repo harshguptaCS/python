@@ -4,4 +4,4 @@ for i in range(t):
     x=abs(b-a)
     y=m-b+a
     z=m-a+b
-    print(min(x,y,z))   
+    print(min(x,y,z))  
