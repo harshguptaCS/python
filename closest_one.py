@@ -3,3 +3,4 @@ for i in range(a,-b-1,-1):
     if i%b==0 and i!=0:
         print(abs(i))
         break
+       
